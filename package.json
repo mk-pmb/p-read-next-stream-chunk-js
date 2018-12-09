@@ -1,5 +1,5 @@
 { "name": "p-read-next-stream-chunk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extended next-chunk.",
   "keywords": [
     "chunk",
@@ -20,7 +20,7 @@
 
   "private": false, "license": "ISC",
 
-  "main": "alias.js",
+  "main": "nxc.js",
   "scripts": { "test": "nodejs test/all.js" },
   "directories": { "test": "test" },
 
