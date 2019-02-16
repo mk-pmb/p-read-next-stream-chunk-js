@@ -27,7 +27,7 @@ This module exports one function:
 
 Tries to read one next chunk from `someReadableStream`.
 Returns a promise for that next chunk.
-Should returns `null` at end of stream as per
+Should return `null` at end of stream as per
 [the objectMode spec][object-mode-spec].
 
 `opts` is an optional options object.
