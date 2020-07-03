@@ -34,7 +34,7 @@ Should return `null` at end of stream as per
 If it is set to a truthy value (e.g. an object),
 `pReadNextStreamChunk` switches to factory mode,
 returnung a function `preset` that remembers the `someReadableStream`.
-`preset` will ignore any arguments and return promises stream chunks.
+`preset` will ignore any arguments and return promises for stream chunks.
 
 `opts` supports these keys:
 
@@ -56,6 +56,9 @@ Known issues
 ------------
 
 * Needs more/better tests and docs.
+* No support for read length limits and cancellation.
+  If you want those, have a look at @kevinoid's
+  [promised-read](https://github.com/kevinoid/promised-read).
 
 
 
